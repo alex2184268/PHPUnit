@@ -10,10 +10,10 @@
 - 全域安裝(以6.5示範)
 
 ```sh
-$ wget https://phar.phpunit.de/phpunit-6.5.phar
+$ wget https://phar.phpunit.de/phpunit-6.5.phar //wget下載
 $ chmod +x phpunit-6.5.phar   //賦予權限
-$ sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
-$ phpunit --version
+$ sudo mv phpunit-6.5.phar /usr/local/bin/phpunit //更改檔名為phpunit
+$ phpunit --version //查看版本並確認command是否能成功執行，即代表安裝成功
 PHPUnit 6.5.14 by Sebastian Bergmann and contributors.
 ```
 
