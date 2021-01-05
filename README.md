@@ -1,9 +1,12 @@
 # PHPUnit
 
+### 環境需求
+
 - 目前最新版本需要PHP7.3以上
 - PHP extentsion: dom、json、 pcre、reflection、spl(這些通常預設為啟用)
 - code coverage report需要Xdebug 2.5以上以及tokenizer這個PHP extensions 
  
+ ### 安裝
 - 全域安裝(以6.5示範)
 
 ```sh
