@@ -17,3 +17,10 @@ $ phpunit --version //查看版本並確認command是否能成功執行，即代
 PHPUnit 9.5.0 by Sebastian Bergmann and contributors.
 ```
 
+### 3a principle for UnitTest
+- arrange:初始化目標物件、相依物件、方法參數、預期的結果
+
+- act:呼叫目標物件的方法
+
+- assert:測試是否符合預期
+
