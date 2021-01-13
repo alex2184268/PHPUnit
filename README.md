@@ -18,9 +18,11 @@ PHPUnit 9.5.0 by Sebastian Bergmann and contributors.
 ```
 
 ### 3a principle for UnitTest
-- arrange:初始化目標物件、相依物件、方法參數、預期的結果
+- arrange:初始化目標物件、相依物件、方法參數、預期的結果。
+準備好要測試的程式(Class or Method)
 
 - act:呼叫目標物件的方法
+執行準備好要測試的物件
 
 - assert:測試是否符合預期
-
+用assert的method來確認是輸出是否為預期
